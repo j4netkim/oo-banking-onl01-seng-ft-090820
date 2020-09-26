@@ -5,7 +5,7 @@ class Transfer
 
   def initialize(amount, sender,receiver)
     @amount = amount
-    @sender = sender
+    @sender = name
   end
 
 end
