@@ -5,7 +5,7 @@ class Transfer
 
   def initialize(transfer, sender, receiver)
     @transfer = transfer
-    
+    binding.pry
   end
 
 end
