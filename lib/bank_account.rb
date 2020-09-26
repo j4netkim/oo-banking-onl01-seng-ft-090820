@@ -1,6 +1,7 @@
 require 'pry'
 class BankAccount
-  attr_accessor :status, :name, :balance 
+  attr_accessor :status, :balance 
+  attr_reader :name
 
   @@all = []
 
