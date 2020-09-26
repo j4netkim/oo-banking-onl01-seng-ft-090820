@@ -22,4 +22,5 @@ class Transfer
     else
       rejected
     end
+  end 
 end
