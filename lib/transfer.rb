@@ -1,8 +1,9 @@
 require 'pry'
 class Transfer
-  
+  attr_accessor :status
+  attr_reader :transfer, :sender, :receiver
 
-  def initialize
+  def initialize(transfer, sender, receiver)
   end
 
 end
