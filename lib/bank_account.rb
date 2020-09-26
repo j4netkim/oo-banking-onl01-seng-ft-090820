@@ -1,6 +1,6 @@
 require 'pry'
 class BankAccount
-  attr_accessor :status, :balance 
+  attr_accessor :status, :balance
   attr_reader :name
 
   @@all = []
@@ -10,6 +10,10 @@ class BankAccount
     @balance = 1000
     @status = "open"
   end
+
+  def deposit(money)
+    @balance << money
+  end 
 
 
 
