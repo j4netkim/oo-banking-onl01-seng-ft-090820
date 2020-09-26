@@ -1,7 +1,6 @@
 require 'pry'
 class BankAccount
-  attr_accessor :status
-  attr_reader :balance, :name
+  attr_accessor :status, :name, :balance 
 
   @@all = []
 
@@ -11,6 +10,6 @@ class BankAccount
     @status = "open"
   end
 
-  
+
 
 end
